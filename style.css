@@ -2,5 +2,64 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color:  #3e3e3e;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.focused-text {
+  color: #ffad5a;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 8%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
   text-decoration: none;
+  background-color: #ff5959;
+  padding: 12px 32px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+
+.btn:hover {
+  background-color: #f54f4f;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+
+/* Hero Section */
+header {
+  margin-top: 18px;
+}
+
+.hero-title {
+  font-size: 55px;
+  font-family: 'Yeseva One', cursive;
+  border-left: 5px solid #ff5959;
+  line-height: 1.6;
+  padding-left: 10px;
+}
+
+.photo img {
+  width: 70%;
+}
+
+.scroll-message {
+  font-size: 14px;
 }
