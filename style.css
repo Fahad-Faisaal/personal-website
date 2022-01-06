@@ -54,6 +54,13 @@ section {
   letter-spacing: 0.8px;
 }
 
+.secondary-title {
+  color: #13103a;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 48px;
+}
+
 /* Hero Section */
 header {
   margin-top: 18px;
@@ -82,13 +89,6 @@ header {
 .mission-section {
   padding-left: 8%;
   padding-right: 8%;
-}
-
-.mission-title {
-  color: #13103a;
-  text-align: center;
-  margin-bottom: 50px;
-  font-size: 48px;
 }
 
 .cards { 
@@ -149,5 +149,49 @@ header {
 .team-text {
   margin-right: 60px;
 }
+
+/* Contact section */
+.contact-section {
+  margin-top: 150px;
+  padding-right: 12%;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-item {
+  margin-bottom: 10px;
+}
+
+.input-item {
+  width: 350px;
+  height: 30px;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.btn-submit {
+  border: none;
+  cursor: pointer;
+}
+
+#message {
+  width: 350px;
+  height: 150px;
+  resize: none;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 18px;
+  color: #333;
+  font-weight: 700;
+}
+
+
 
 
