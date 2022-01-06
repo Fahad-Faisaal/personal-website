@@ -192,6 +192,32 @@ ul li {
   font-weight: 700;
 }
 
+/* Footer */
+footer {
+  background-color: #0b0d17;
+  
+  
+}
+
+footer h4{
+  font-family: 'Yeseva One', cursive;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 6px;
+  padding: 20px;
+}
+
+footer p{
+  text-align: center;
+  font-size: 14px;
+  color:  #d9dbe1;
+  padding: 8px;
+}
+
+.green-text {
+  color: #ff5959;
+}
 
 
 
